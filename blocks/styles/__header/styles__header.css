@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 34px;
+    max-width: 1017px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    margin-top: 34px;
+}
+
+.header__lead_title {
+    text-align: center;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 91px;
+    margin: 0;
+}
+
+.header__lead_subtitle {
+    width: 60%;
+    padding-top: 32px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.header__rectangle_kalegin {
+    margin-top: 64px;
+    width: 100%;
+    filter: grayscale(100%);
+}
