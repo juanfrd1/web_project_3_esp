@@ -1,5 +1,6 @@
 @import url(./__header/styles__header.css);
 @import url(./__intro/styles__intro.css);
+@import url(./__photo/styles__photo.css);
 
 *{
     margin: 0;
