@@ -1,0 +1,40 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #ffffff;
+    margin: 0 auto;
+    width: min(100%, 1017px);
+}
+
+.intro__title {
+    margin-top: 92px;
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: bold;
+}
+
+.intro__pharagraph-first {
+    max-width: 720px;
+    margin-top: 90px;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.intro__pharagraph-quote {
+    position: relative;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    left: 52%;
+    bottom: 30px;
+    max-width: 720px;
+}
+
+.intro__pharagraph-second {
+    max-width: 720px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
