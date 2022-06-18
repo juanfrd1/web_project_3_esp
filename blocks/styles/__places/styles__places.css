@@ -1,0 +1,62 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 92px;
+}
+
+.places__container {
+    display: grid;
+    grid-template-areas: "title description" "image paragraphs" "button paragraphs" ".paragraphs";
+    grid-gap: 40px;
+    margin: 0 1%;
+}
+
+.places__tittle  {
+    grid-area: title;
+    font-size: 72px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 76px;
+    max-width: 460px;
+}
+
+.places__description  {
+    grid-area: description;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 165%;
+    align-self: flex-end;
+}
+
+.place__img {
+    grid-area: image;
+    max-width: 460px;
+    height: 460px;
+}
+
+.places__NFT {
+    grid-area: button;
+    width: min(350px, 100%);
+    padding: 13px 20px;
+    color: #ffffff;
+    background-color: #0278FE;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.places__NFT:hover {
+    background-color: #0063d2;
+}
+
+.places__text {
+    grid-area: paragraphs;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: white;
+}
