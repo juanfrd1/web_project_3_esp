@@ -2,6 +2,7 @@
 @import url(./__intro/styles__intro.css);
 @import url(./__photo/styles__photo.css);
 @import url(./__places/styles__places.css);
+@import url(./__footer/styles__footer.css);
 
 *{
     margin: 0;
