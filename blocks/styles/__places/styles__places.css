@@ -9,7 +9,7 @@
 
 .places__container {
     display: grid;
-    grid-template-areas: "title description" "image paragraphs" "button paragraphs" ".paragraphs";
+    grid-template-areas: "title description" "image quote" "button quote" ".quote";
     grid-gap: 40px;
     margin: 0 1%;
 }
@@ -54,7 +54,7 @@
 }
 
 .places__text {
-    grid-area: paragraphs;
+    grid-area: quote;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
