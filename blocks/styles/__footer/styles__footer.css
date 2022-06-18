@@ -50,7 +50,8 @@
 }
 
 .cover__button:hover {
-    background-color: #0063D2;
+    background-color: #ffffff;
+    color: #0278FE;
 }
 
 .footer {
@@ -66,4 +67,60 @@
     line-height: 16px;
     color: #ffffff;
     padding-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        width: 100%;
+        height: 746px;
+        margin: 92px 0 0;
+    }
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .cover {
+        width: 100%;
+        height: 254px;
+        margin: 120px 0 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cover__text {
+        font-size: 32px;
+        line-height: 30px;
+        font-weight: bold;
+        margin-top: 38px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cover__description {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cover__button {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-top: 85px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .footer {
+        margin-top: 60px;
+    }
 }

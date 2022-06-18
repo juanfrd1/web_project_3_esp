@@ -11,8 +11,8 @@
 }
 
 .page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0 auto;
+    width: min(1fr, 1280px);
     font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
