@@ -6,7 +6,7 @@
     background-image: url(/blocks/images/__background.svg);
     background-size: cover;
     background-position: center;
-    margin: 200px;
+    margin: auto;
     height: 740px;
     max-width: 1184px;
     opacity: 1;
