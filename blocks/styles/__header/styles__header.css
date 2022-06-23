@@ -12,7 +12,7 @@
     margin-top: 34px;
 }
 
-.header__lead_title {
+.header__lead-title {
     text-align: center;
     font-size: 96px;
     line-height: 100px;
@@ -22,7 +22,7 @@
     margin: 0;
 }
 
-.header__lead_subtitle {
+.header__lead-subtitle {
     width: 60%;
     padding-top: 32px;
     font-weight: 400;
@@ -31,7 +31,7 @@
     color: #ffffff;
 }
 
-.header__rectangle_kalegin {
+.header__rectangle-kalegin {
     margin-top: 64px;
     width: 100%;
     filter: grayscale(100%);

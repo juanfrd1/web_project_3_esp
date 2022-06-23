@@ -32,7 +32,7 @@
     align-self: flex-end;
 }
 
-.place__img {
+.places__img {
     grid-area: image;
     /*max-width: 460px;
     height: 460px;*/
@@ -95,14 +95,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .place__img {
+    .places__img {
         max-width: 340px;
         max-height: 340px;
     }
 }
 
 @media screen and (max-width: 585px) {
-    .place__img {
+    .places__img {
         max-width: 100%;
         max-height: 100%;
     }
