@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/blocks/images/__background.svg);
+    background-image: url(/blocks/images/__background-min.png);
     background-size: cover;
     background-position: center;
     margin: auto;
