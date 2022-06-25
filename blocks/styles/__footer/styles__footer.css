@@ -1,4 +1,4 @@
-.cover {
+/*.cover {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,9 +15,34 @@
 
 .cover:hover {
     opacity: 0.5;
+}*/
+
+.cover {
+    position: relative;
+    display: flex;
+    height: 740px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/blocks/images/__background-min.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1184px;
+    margin: auto;
+}
+
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.25);
 }
 
 .cover__text {
+    position: relative;
     line-height: 76px;
     font-weight: 900;
     font-size: 72px;
@@ -27,6 +52,7 @@
 }
 
 .cover__description {
+    position: relative;
     width: 280px;
     font-size: 18px;
     font-weight: 400;
@@ -38,6 +64,7 @@
 }
 
 .cover__button {
+    position: relative;
     padding: 13px 20px;
     font-size: 18px;
     font-weight: 600;
